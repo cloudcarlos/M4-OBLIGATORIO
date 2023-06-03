@@ -76,12 +76,11 @@ body {
 }
 
 .card-personajes {
-        margin: 5 auto 5;
+        margin: 5px auto;
         padding: 10%;
         font-size: large;
-        max-width: 15%;
-        width: 180px;
-        height: 70%
+        width: 30%;
+        height: auto;
 }
 
 .card {
