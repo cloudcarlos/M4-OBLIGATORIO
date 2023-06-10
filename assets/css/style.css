@@ -35,14 +35,16 @@ body {
 .row-personajes {
         padding: 0;
         margin: 0;
-        width: 100vw;
-        height: 27vh;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         z-index: 1;
 }
 
 .selector-personajes {
+        position: relative;
         width: 10%;
         padding: 0;
         z-index: 2;
@@ -71,8 +73,11 @@ body {
 }
 
 .contenedor-personajes {
-        width: 90%;
+        width: 100%;
         height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
 }
 
 .card-personajes {
